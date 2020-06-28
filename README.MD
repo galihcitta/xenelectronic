@@ -86,7 +86,7 @@ The default url of this app is: http://localhost:3000
 
 Database Design
 
-![dbdesign](https://ibb.co/8jLh1sV)
+![dbdesign](https://i.ibb.co/GV4hzpj/dbxen.png)
 
 
 
