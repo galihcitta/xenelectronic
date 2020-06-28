@@ -29,5 +29,11 @@
 * Customer able to do the checkout the cart
 * Customer able to do the view the cart
 
+## API Documentation
+
+The API end points are as follow
+#### GET `/products/type/all`
+> returns all of products data
+
 
 
