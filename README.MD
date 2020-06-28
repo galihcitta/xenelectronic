@@ -59,14 +59,14 @@ cd web
 npm install
 ```
 
-4. After all the dependencies installed, you need to create .env inside server folder
+4. After all the dependencies installed, you need to create .env inside server folder. Make sure you have installed PostgreSql on your own machine. Dont forget to run PostgreSql and create your database first
 
 ```
 POSTGRES_DB_URL=jdbc:postgresql://localhost/<Your Database Name>
 JWT_SECRET="your jwt secret"
 PORT=5000
 ```
-Just in case you confused, i have attached my .env on the repo. Make sure you have installed PostgreSql on your own machine
+Just in case you confused, i have attached my .env on the repo. 
 
 5. Run the server using this command inside server folder
 ```
