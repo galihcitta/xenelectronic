@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders correctly 1`] = `
+<DocumentFragment>
+  <header
+    class="sc-htoDjs dHOETM"
+  >
+    <div
+      class="sc-dnqmqq gTOaEr"
+    >
+      <a
+        class="sc-iwsKbI hQBmBE"
+        href="/"
+      >
+        <h1
+          class="sc-gZMcBi fPQmCU"
+        >
+          Interior & Exterior
+        </h1>
+      </a>
+      <nav
+        class="sc-gqjmRU eqrLjR"
+      >
+        <button
+          aria-label="open menu"
+          class="sc-VigVT fwtpGC"
+          title="Menu"
+        >
+          <i
+            class="fas fa-bars"
+          />
+        </button>
+        <ul
+          class="sc-bdVaJa hDTYr"
+        >
+          <li
+            class="sc-bxivhb icElMN"
+          >
+            <a
+              class="sc-htpNat gyqNkk"
+              href="/shop"
+            >
+              Products
+              <i
+                class="fas fa-caret-down"
+              />
+            </a>
+            <div
+              class="sc-bwzfXH gjnxxD"
+            >
+              <ul
+                class="sc-ifAKCX kqqTha"
+              >
+                <li
+                  class="sc-EHOje jTwYBT"
+                >
+                  <a
+                    class="sc-bZQynM imRHDl"
+                    href="/shop"
+                  >
+                    Chairs
+                  </a>
+                </li>
+                <li
+                  class="sc-EHOje jTwYBT"
+                >
+                  <a
+                    class="sc-bZQynM imRHDl"
+                    href="/shop"
+                  >
+                    Lamps
+                  </a>
+                </li>
+                <li
+                  class="sc-EHOje jTwYBT"
+                >
+                  <a
+                    class="sc-bZQynM imRHDl"
+                    href="/shop"
+                  >
+                    Clocks
+                  </a>
+                </li>
+                <li
+                  class="sc-EHOje jTwYBT"
+                >
+                  <a
+                    class="sc-bZQynM imRHDl"
+                    href="/shop"
+                  >
+                    Vases
+                  </a>
+                </li>
+                <li
+                  class="sc-EHOje jTwYBT"
+                >
+                  <a
+                    class="sc-bZQynM imRHDl"
+                    href="/shop"
+                  >
+                    Benches
+                  </a>
+                </li>
+                <li
+                  class="sc-EHOje jTwYBT"
+                >
+                  <a
+                    class="sc-bZQynM imRHDl"
+                    href="/shop"
+                  >
+                    Flowerpots
+                  </a>
+                </li>
+                <li
+                  class="sc-EHOje jTwYBT"
+                >
+                  <a
+                    class="sc-bZQynM imRHDl"
+                    href="/shop"
+                  >
+                    Plants
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li
+            class="sc-bxivhb icElMN"
+          >
+            <a
+              class="sc-htpNat gyqNkk"
+              href="/account"
+            >
+              Account
+            </a>
+          </li>
+          <li
+            class="sc-bxivhb icElMN"
+          >
+            <a
+              class="sc-htpNat gyqNkk"
+              href="/cart"
+            >
+              Cart (0)
+            </a>
+          </li>
+        </ul>
+        <button
+          aria-label="submit searching"
+          class="sc-jTzLTM kYnXAK"
+          title="Search"
+        >
+          <i
+            class="fas fa-search"
+          />
+        </button>
+      </nav>
+    </div>
+  </header>
+</DocumentFragment>
+`;

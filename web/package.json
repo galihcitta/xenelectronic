@@ -1,0 +1,89 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "12.7.2",
+    "@types/react": "16.9.2",
+    "@types/react-dom": "16.9.0",
+    "@types/react-redux": "^7.1.2",
+    "@types/react-router-dom": "^4.3.5",
+    "axios": "^0.19.0",
+    "jwt-decode": "^2.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.4",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.0.5",
+    "reselect": "^4.0.0",
+    "styled-components": "^4.3.2",
+    "typescript": "3.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.ts",
+      "!src/modules/**/*.interfaces.ts",
+      "!src/modules/**/*.selectors.ts",
+      "!src/modules/**/*.reducer.ts",
+      "!src/modules/**/*.actions.ts",
+      "!src/modules/**/*.sagas.ts",
+      "!src/modules/**/*.types.ts",
+      "!src/modules/*.ts",
+      "!src/index.ts",
+      "!src/hooks/*.ts",
+      "!src/hoc/*.ts"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 90,
+        "lines": 90,
+        "statements": 90
+      }
+    },
+    "coverageReporters": [
+      "html",
+      "text"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.1.0",
+    "@testing-library/react": "^9.2.0",
+    "@types/axios": "^0.14.0",
+    "@types/jwt-decode": "^2.2.1",
+    "@types/redux": "^3.6.0",
+    "@types/redux-logger": "^3.0.7",
+    "@types/redux-persist": "^4.3.1",
+    "@types/redux-saga": "^0.10.5",
+    "@types/reselect": "^2.2.0",
+    "@types/styled-components": "^4.1.18",
+    "ts-jest": "^24.1.0"
+  }
+}

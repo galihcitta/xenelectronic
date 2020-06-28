@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CollectionsMenu /> renders correctly 1`] = `
+<DocumentFragment>
+  <nav
+    class="sc-EHOje jWYlbq"
+    data-testid="Wrapper"
+  >
+    <header
+      class="sc-bZQynM lpjVvd"
+    >
+      <p
+        class="sc-gzVnrw dNIQQe"
+      >
+        Interior
+      </p>
+      <button
+        aria-label="close"
+        class="sc-htoDjs qBCwI"
+        title="close menu"
+      >
+        <i
+          class="far fa-times-circle"
+        />
+      </button>
+    </header>
+    <ul
+      class="sc-dnqmqq eBryZD"
+    >
+      <li
+        class="sc-bdVaJa jqTRNv"
+      >
+        <a
+          class="sc-ifAKCX fYSqpX"
+          href="/shop"
+        >
+          Chairs
+        </a>
+      </li>
+      <li
+        class="sc-bdVaJa jqTRNv"
+      >
+        <a
+          class="sc-ifAKCX fYSqpX"
+          href="/shop"
+        >
+          Lamps
+        </a>
+      </li>
+      <li
+        class="sc-bdVaJa jqTRNv"
+      >
+        <a
+          class="sc-ifAKCX fYSqpX"
+          href="/shop"
+        >
+          Clocks
+        </a>
+      </li>
+      <li
+        class="sc-bdVaJa jqTRNv"
+      >
+        <a
+          class="sc-ifAKCX fYSqpX"
+          href="/shop"
+        >
+          Vases
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <nav
+    class="sc-EHOje jWYlbq"
+    data-testid="Wrapper"
+  >
+    <header
+      class="sc-bZQynM lpjVvd"
+    >
+      <p
+        class="sc-gzVnrw dNIQQe"
+      >
+        Exterior
+      </p>
+      <button
+        aria-label="close"
+        class="sc-htoDjs qBCwI"
+        title="close menu"
+      >
+        <i
+          class="far fa-times-circle"
+        />
+      </button>
+    </header>
+    <ul
+      class="sc-dnqmqq eBryZD"
+    >
+      <li
+        class="sc-bdVaJa jqTRNv"
+      >
+        <a
+          class="sc-ifAKCX fYSqpX"
+          href="/shop"
+        >
+          Benches
+        </a>
+      </li>
+      <li
+        class="sc-bdVaJa jqTRNv"
+      >
+        <a
+          class="sc-ifAKCX fYSqpX"
+          href="/shop"
+        >
+          Flowerpots
+        </a>
+      </li>
+      <li
+        class="sc-bdVaJa jqTRNv"
+      >
+        <a
+          class="sc-ifAKCX fYSqpX"
+          href="/shop"
+        >
+          Plants
+        </a>
+      </li>
+    </ul>
+  </nav>
+</DocumentFragment>
+`;

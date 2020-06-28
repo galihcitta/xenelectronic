@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextInput /> renders correctly 1`] = `
+<DocumentFragment>
+  <p
+    class="sc-bdVaJa jGgciL"
+  >
+    <input
+      class="sc-htpNat kvebgI"
+      id="email"
+      name="email"
+      placeholder=""
+      type="email"
+      value=""
+    />
+    <span
+      class="sc-bxivhb BciNW"
+      data-testid="ValidationIcon"
+    >
+      <i
+        class="fas fa-check-circle"
+      />
+    </span>
+    <label
+      class="sc-bwzfXH fvEVNp"
+      for="email"
+    >
+      Enter email
+    </label>
+    <span
+      class="sc-ifAKCX iHjGSE"
+    />
+  </p>
+</DocumentFragment>
+`;

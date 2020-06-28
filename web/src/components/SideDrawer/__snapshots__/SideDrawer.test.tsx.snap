@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SideDrawer /> renders correctly 1`] = `
+<DocumentFragment>
+  <nav
+    class="sc-bdVaJa heZQzu"
+    data-testid="Wrapper"
+  >
+    <header
+      class="sc-bwzfXH gEGrQn"
+    >
+      <p
+        class="sc-htpNat cuHHjG"
+      >
+        Title
+      </p>
+      <button
+        aria-label="close"
+        class="sc-bxivhb gkQASD"
+        title="close menu"
+      >
+        <i
+          class="far fa-times-circle"
+        />
+      </button>
+    </header>
+    <ul
+      class="sc-ifAKCX hshtzb"
+    >
+      <span>
+        test
+      </span>
+    </ul>
+  </nav>
+</DocumentFragment>
+`;
