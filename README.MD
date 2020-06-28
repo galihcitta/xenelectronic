@@ -15,6 +15,7 @@
 * TypeScript
 * Express
 * PostgreSQL
+* TypeORM
 * Jest for Unit Testing on both server and web
 * Styled Components
 * ESLint for linting
@@ -43,20 +44,44 @@ The API end points are as follow
 git clone https://github.com/galihcitta/xenelectronic.git
 ```
 
-3. First, you have to install the dependencies using npm on server folder
+3. First, you have to install the dependencies using npm in server folder
 
 ```
 cd server
 npm install
 ```
 
-3. Then, also install the dependencies on web folder
+3. Then, also install the dependencies in web folder
 
 ```
 cd ../
 cd web
 npm install
 ```
+
+4. After all the dependencies installed, you need to create .env inside server folder
+
+```
+POSTGRES_DB_URL=jdbc:postgresql://localhost/<Your Database Name>
+JWT_SECRET="your jwt secret"
+PORT=5000
+```
+Just in case you confused, i have attached my .env on the repo. Make sure you have installed PostgreSql on your own machine
+
+5. Run the server using this command inside server folder
+```
+npm run start:dev
+```
+The default url of this app is: http://localhost:5000
+
+6. For the web or frontend. Open new terminal, move inside the web folder and run the web using this command
+
+```
+cd web
+npm run start
+```
+The default url of this app is: http://localhost:3000
+
 
 
 
