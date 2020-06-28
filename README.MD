@@ -35,5 +35,29 @@ The API end points are as follow
 #### GET `/products/type/all`
 > returns all of products data
 
+## Installation
+
+1. Clone this repository
+
+```
+git clone https://github.com/galihcitta/xenelectronic.git
+```
+
+3. First, you have to install the dependencies using npm on server folder
+
+```
+cd server
+npm install
+```
+
+3. Then, also install the dependencies on web folder
+
+```
+cd ../
+cd web
+npm install
+```
+
+
 
 
