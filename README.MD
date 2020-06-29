@@ -72,7 +72,7 @@ Just in case you confused, i have attached my .env on the repo.
 ```
 npm run start:dev
 ```
-The default url of this app is: http://localhost:5000
+The default url of the backend/server is: http://localhost:5000
 
 6. For the web or frontend. Open new terminal, move inside the web folder and run the web using this command
 
@@ -80,7 +80,7 @@ The default url of this app is: http://localhost:5000
 cd web
 npm run start
 ```
-The default url of this app is: http://localhost:3000
+The default url of the web/frontend is: http://localhost:3000
 
 ## Application Design
 
